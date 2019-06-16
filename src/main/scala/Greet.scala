@@ -19,5 +19,9 @@ object Greet {
     val oneTwoThree = 1 :: twoThree
     println(oneTwoThree)
 
+    //sample 3.4
+    val pair = (99, "Luftballons")
+    println(pair._1)
+    println(pair._2)
   }
 }
