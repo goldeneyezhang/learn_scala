@@ -1,3 +1,5 @@
+import scala.collection.mutable
+
 object Greet {
   def main(args: Array[String]) = {
     println("Hello world!")
@@ -23,5 +25,16 @@ object Greet {
     val pair = (99, "Luftballons")
     println(pair._1)
     println(pair._2)
+
+    //sample 3.5
+    var jetSet = Set("Boeing", "Airbus")
+    jetSet += "Lear"
+    println(jetSet)
+    println(jetSet.contains("Cessna"))
+
+    //sample 3.6
+    val movieSet = mutable.Set("Hitch", "Poltergeist")
+    movieSet += "Shrek"
+    println(movieSet)
   }
 }
