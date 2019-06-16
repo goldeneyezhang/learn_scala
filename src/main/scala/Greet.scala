@@ -9,6 +9,15 @@ object Greet {
     for(i <- 0 to 2)
       print(greetStrings(i))
 
+    //sample 3.3
+    val oneTwo = List(1,2)
+    var threeFour = List(3,4)
+    val oneTwoThreeFout = oneTwo ::: threeFour
+    println(oneTwo + " and " + threeFour + " were not mutated.")
+    println("Thus, " + oneTwoThreeFout + " is a new List")
+    val twoThree = List(2,3)
+    val oneTwoThree = 1 :: twoThree
+    println(oneTwoThree)
 
   }
 }
